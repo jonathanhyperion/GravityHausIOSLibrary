@@ -298,6 +298,15 @@
       }
     },
     {
+      "identity" : "sgsegmentedprogressbarlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanhyperion/SGSegmentedProgressBarLibrary.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "db82cc07faf9242cc3d7426b18714d04c1b6208b"
+      }
+    },
+    {
       "identity" : "skyfloatinglabeltextfield",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Skyscanner/SkyFloatingLabelTextField.git",

@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "GravityHausIOSLibrary",
+    platforms: [
+        .macOS(.v10_13),
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -40,6 +43,7 @@ let package = Package(
         .package(url: "https://github.com/google/GoogleSignIn-iOS.git", from: "6.0.0"),
         .package(url: "https://github.com/optonaut/ActiveLabel.swift.git", from: "1.1.5"),
         .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", from: "4.2.0"),
+        .package(url: "https://github.com/jonathanhyperion/SGSegmentedProgressBarLibrary.git", branch: "master"),
 //        .package(url: "https://github.com/rkrenecky/BadgeControl.git", from: "1.2.1"),
 //        .package(url: "https://github.com/vikmeup/SCLAlertView-Swift.git", from: "0.8.0"),
 //        .package(url: "https://github.com/soffes/Crypto.git", from: "0.6.0"), // ATGValidator
