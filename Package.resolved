@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "actionsheetpicker-3.0",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/skywinder/ActionSheetPicker-3.0.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b02f900c618f4963d76c4d05095b3583ccc1ee1c"
+      }
+    },
+    {
       "identity" : "activelabel.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/optonaut/ActiveLabel.swift.git",
@@ -46,6 +55,15 @@
       }
     },
     {
+      "identity" : "badgecontrol",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanhyperion/BadgeControl.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bb12f0e7b470140d7b2779e130460d3cbc5fa4a7"
+      }
+    },
+    {
       "identity" : "boringssl-swiftpm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/boringssl-SwiftPM.git",
@@ -61,6 +79,24 @@
       "state" : {
         "revision" : "0a229f8c914b0ec93798cee058cf75b339297513",
         "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/soffes/Crypto.git",
+      "state" : {
+        "revision" : "0e9cb691eba2130a647e84775050ae2a57c12d26",
+        "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "datetools",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanhyperion/DateTools.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "9d628d50e0f6d589d4aa853a0cf28d2c8301212a"
       }
     },
     {
@@ -88,6 +124,15 @@
       "state" : {
         "revision" : "5d7f5a6307ad510aa05de5a4a16ac40846d3b2d3",
         "version" : "2.6.1"
+      }
+    },
+    {
+      "identity" : "fscalendar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/WenchaoD/FSCalendar.git",
+      "state" : {
+        "revision" : "0fbdec5172fccb90f707472eeaea4ffe095278f6",
+        "version" : "2.8.4"
       }
     },
     {
@@ -172,12 +217,30 @@
       }
     },
     {
+      "identity" : "hero",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HeroTransitions/Hero.git",
+      "state" : {
+        "revision" : "66a554b21116fccf61b3aa2205a86f6b0cdc9766",
+        "version" : "1.6.2"
+      }
+    },
+    {
       "identity" : "isemojiview",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/isaced/ISEmojiView.git",
       "state" : {
         "revision" : "4b16e07b9265eedad2ea25b9aa042f230486234f",
         "version" : "0.3.4"
+      }
+    },
+    {
+      "identity" : "jngradientlabel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SomeRandomiOSDev/JNGradientLabel.git",
+      "state" : {
+        "revision" : "bc9919979ce65e278c23241ac0c9117518ac89a9",
+        "version" : "1.0.3"
       }
     },
     {
@@ -253,6 +316,42 @@
       }
     },
     {
+      "identity" : "opalimagepicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanhyperion/OpalImagePicker.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b279c4d0b752c2fa2540b778f732a7522e1b11d3"
+      }
+    },
+    {
+      "identity" : "pastel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cruisediary/Pastel.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5119336d6c28ede1aa0500b26a7ce667b0660d9a"
+      }
+    },
+    {
+      "identity" : "permissionskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sparrowcode/PermissionsKit",
+      "state" : {
+        "revision" : "fc6a8210ba73b77267d863fe49b9df3ea1afcb3d",
+        "version" : "5.5.8"
+      }
+    },
+    {
+      "identity" : "playerkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanhyperion/PlayerKit.git",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "ff9427b765415da60e2987f6f8fb0cdffb79c486"
+      }
+    },
+    {
       "identity" : "promises",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
@@ -295,6 +394,15 @@
       "state" : {
         "revision" : "cec68169a048a079f461ba203fe85636548d7a89",
         "version" : "5.1.3"
+      }
+    },
+    {
+      "identity" : "sclalertview-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jonathanhyperion/SCLAlertView-Swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "fb5b8673923e4f1df7b80092448bea7e72323ae7"
       }
     },
     {

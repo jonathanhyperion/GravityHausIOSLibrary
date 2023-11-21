@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GravityHausIOSLibrary",
     platforms: [
-        .macOS(.v10_13),
+        .macOS(.v10_14),
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -15,8 +15,6 @@ let package = Package(
             targets: ["GravityHausIOSLibrary"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/SVProgressHUD/SVProgressHUD.git", from: "2.3.1"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
         .package(url: "https://github.com/GetStream/stream-chat-swift.git", from: "1.5.5"),
@@ -44,14 +42,18 @@ let package = Package(
         .package(url: "https://github.com/optonaut/ActiveLabel.swift.git", from: "1.1.5"),
         .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", from: "4.2.0"),
         .package(url: "https://github.com/jonathanhyperion/SGSegmentedProgressBarLibrary.git", branch: "master"),
-//        .package(url: "https://github.com/rkrenecky/BadgeControl.git", from: "1.2.1"),
-//        .package(url: "https://github.com/vikmeup/SCLAlertView-Swift.git", from: "0.8.0"),
-//        .package(url: "https://github.com/soffes/Crypto.git", from: "0.6.0"), // ATGValidator
-//        .package(url: "https://github.com/cruisediary/Pastel.git", from: "0.6.0"),
-//        .package(url: "https://github.com/ivanvorobei/SPPermissions.git", from: "5.5.7"),
-//        .package(url: "https://github.com/opalorange/OpalImagePicker.git", from: "3.0.0"), // OpalImagePicker
-//        .package(url: "https://github.com/sanjeevworkstation/SGSegmentedProgressBarLibrary.git", from: "0.0.5"),
-
+        .package(url: "https://github.com/sparrowcode/PermissionsKit", from: "5.5.7"),
+        .package(url: "https://github.com/WenchaoD/FSCalendar.git", from: "2.8.0"),
+        .package(url: "https://github.com/cruisediary/Pastel.git", branch: "master"),
+        .package(url: "https://github.com/soffes/Crypto.git", from: "0.6.0"), // ATGValidator
+        .package(url: "https://github.com/skywinder/ActionSheetPicker-3.0.git", branch: "master"),
+        .package(url: "https://github.com/SomeRandomiOSDev/JNGradientLabel.git", from: "1.0.0"),
+        .package(url: "https://github.com/HeroTransitions/Hero.git", from: "1.6.2"),
+        .package(url: "https://github.com/jonathanhyperion/BadgeControl.git", branch: "master"),
+        .package(url: "https://github.com/jonathanhyperion/OpalImagePicker.git", branch: "master"), // OpalImagePicker
+        .package(url: "https://github.com/jonathanhyperion/SCLAlertView-Swift.git", branch: "master"),
+        .package(url: "https://github.com/jonathanhyperion/DateTools.git", branch: "master"),
+        .package(url: "https://github.com/jonathanhyperion/PlayerKit.git", branch: "develop"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
